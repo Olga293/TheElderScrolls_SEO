@@ -1,0 +1,58 @@
+hr { 
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #2b251e, #f0f0f0, #2b251e);
+    background-image: -moz-linear-gradient(left, #2b251e, #f0f0f0, #2b251e);
+    background-image: -ms-linear-gradient(left, #2b251e, #f0f0f0, #2b251e);
+    background-image: -o-linear-gradient(left, #2b251e, #f0f0f0, #2b251e); 
+}
+
+footer{
+  margin-top: 2em;
+}
+
+.wrapper{   
+  background-image: url(../images/dragon-wall.png);      
+  background-position: center center;      
+  background-repeat: no-repeat;      
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  text-align: justify;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bg-404{    
+  display:block;
+  position:absolute;
+  bottom:0px;
+  left:0px;
+  min-height: 30vh;
+  z-index: -1;
+}
+.wrapper-404{
+  min-height: 100vh;
+  display: flex;
+  text-align: justify;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info{
+  max-width: 700px;
+  margin: auto;
+  padding: 2em;
+  background: rgba(0,0,0,0.5);
+  box-shadow: 0 0 200px 300px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  color: #c1c0c0;
+  font-size: larger;
+}
+.info h1{
+  text-shadow: rgba(0, 0, 0, 0.7) 1px 0 10px;
+}
+
+a{
+  color: #c1c0c0;
+}
